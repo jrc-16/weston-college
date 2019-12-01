@@ -3,7 +3,6 @@ print("\nPurchasing Food")
 print("===============\n")
 print("Description: A simple program that asks the user for the total amount of Gummies they would like to buy. Prices are listed with and without VAT.\n")
 
-
 # Define variables.
 gummiesCost = float(0.50)
 vat = float(20)

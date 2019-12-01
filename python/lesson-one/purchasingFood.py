@@ -1,12 +1,13 @@
-# Define variables
+# Describe what the program does.
+print("\nPurchasing Food")
+print("===============\n")
+print("Description: A simple program that asks the user for the total amount of Gummies they would like to buy. Prices are listed with and without VAT.\n")
+
+
+# Define variables.
 gummiesCost = float(0.50)
 vat = float(20)
 costFormatter = '.2f'
-
-print("\nPurchasing Food")
-print("===============\n")
-
-print("Description: A simple program that asks the user for the total amount of Gummies they would like to buy. Prices are listed with and without VAT.\n")
 
 # 1) Get input from the user.
 # The user will enter how many gummies they want.
